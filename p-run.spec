@@ -11,7 +11,6 @@ Patch0:	p-run-Makefile.patch
 License: GPL
 Group: Networking/Remote access
 Url: http://www.sorensonfamily.com/~frank/projects/p-run/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: expect-devel
 
