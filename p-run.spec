@@ -1,6 +1,6 @@
 %define name p-run
 %define version 0.1
-%define release %mkrel 4
+%define release %mkrel 6
 
 Summary: Runs program, script or commands on large number of hosts in parallel
 Name: %{name}
