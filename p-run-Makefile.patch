@@ -1,0 +1,10 @@
+--- Makefile.patched	2004-05-28 11:29:44.014828676 +0200
++++ Makefile	2004-05-28 11:27:21.589085620 +0200
+@@ -1,6 +1,6 @@
+ CC=gcc
+ #LIBS=-lexpect -lpthread
+-LIBS=-lexpect
++LIBS=-lexpect5.43
+ CFLAGS=-Wall
+ STATIC=-static
+ 
