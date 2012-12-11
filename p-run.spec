@@ -1,6 +1,7 @@
+%define debug_package %{nil}
 %define name p-run
 %define version 0.1
-%define release %mkrel 8
+%define release 8
 
 Summary: Runs program, script or commands on large number of hosts in parallel
 Name: %{name}
@@ -8,10 +9,9 @@ Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 Patch0:	p-run-Makefile.patch
-License: GPL
+License: GPLv2
 Group: Networking/Remote access
 Url: http://www.sorensonfamily.com/~frank/projects/p-run/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: expect-devel
 
@@ -24,7 +24,6 @@ many processes as specified. When run on a large number of hosts, its
 parallel nature significantly speeds up administration.
 
 %files
-%defattr(-,root,root)
 %doc Copying README TODO
 %attr(755,root,root) %{_bindir}/*
 
@@ -42,6 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p %{buildroot}%{_bindir}
 cp -v %name %{buildroot}%{_bindir}
 
-%clean
-rm -rf $RPM_BUILD_ROOT
+
 
