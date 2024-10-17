@@ -11,7 +11,7 @@ Source0: %{name}-%{version}.tar.bz2
 Patch0:	p-run-Makefile.patch
 License: GPLv2
 Group: Networking/Remote access
-Url: http://www.sorensonfamily.com/~frank/projects/p-run/
+Url: https://www.sorensonfamily.com/~frank/projects/p-run/
 
 BuildRequires: expect-devel
 
