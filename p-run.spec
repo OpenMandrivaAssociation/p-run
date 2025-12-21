@@ -13,6 +13,7 @@ License: GPLv2
 Group: Networking/Remote access
 Url: https://www.sorensonfamily.com/~frank/projects/p-run/
 
+BuildRequires:	make
 BuildRequires: expect-devel
 
 %description
